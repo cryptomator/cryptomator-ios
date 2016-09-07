@@ -26,7 +26,6 @@
 "alert.trustSslCertificate.action.dontTrust" = "Niet vertrouwen";
 
 "authentication.iCloudDrive.progressStatus" = "Het gebruik van iCloud Drive voorbereiden…";
-"authentication.oneDrive.progressStatus" = "Het gebruik van OneDrive voorbereiden…";
 "authentication.error.notReachable" = "%@ is niet beschikbaar. Probeer later opnieuw!";
 "authentication.error.failed" = "%@ authenticatie mislukt.";
 
@@ -74,6 +73,7 @@
 "unknown.filename" = "Naamloos %@";
 
 "directoryBrowser.footer.emptyFolder" = "Map is leeg";
+"directoryBrowser.footer.noSearchResults" = "Geen resultaten";
 "directoryBrowser.error.notFound.description" = "\"%@\" kon niet gevonden worden.";
 "directoryBrowser.error.alreadyExists.description" = "\"%@\" reeds in gebruik.";
 "directoryBrowser.error.uploadFile.description" = "Het uploaden van \"%@\" is mislukt.";
@@ -105,10 +105,13 @@
 "unlock.versionMismatch.message" = "Ongeschikte kluis. Deze kluis is gemaakt met een andere versie van Cryptomator.";
 "unlock.wrongPassword.title" = "Verkeerd wachtwoord";
 "unlock.wrongPassword.message" = "U heeft een verkeerd wachtwoord ingevoerd. Probeer het nogmaals.";
+"unlock.unauthenticKeyVersion.title" = "Niet-authentieke Sleutel versie";
+"unlock.unauthenticKeyVersion.message" = "De versie van de hoofdsleutel is niet authentiek. Gelieve contact met ons op te nemen!";
 
 "fileUpload.title" = "Opslaan naar Cryptomator";
 "fileUpload.file" = "Bestand";
 "fileUpload.file.filename" = "Bestandsnaam";
+"fileUpload.favoriteLocation" = "Favorieten";
 "fileUpload.uploadLocation" = "Bewaar Locatie";
 "fileUpload.uploadLocation.locationChooser" = "Kies Map…";
 
@@ -122,6 +125,8 @@
 "vaultBrowser.uploadFile.photos" = "Foto's";
 "vaultBrowser.uploadFile.progressStatus" = "Voorbereiden…";
 "vaultBrowser.uploadFile.nothingUploadedWarning" = "Er is niets geüpload.";
+"vaultBrowser.changeSortMode.sortByName" = "Sorteren op naam";
+"vaultBrowser.changeSortMode.sortByDate" = "Sorteren op datum";
 
 "settings.title" = "Instellingen";
 "settings.autoLock" = "Auto-Lock";
@@ -181,8 +186,8 @@
 "webDavAuthentication.username" = "Gebruikersnaam";
 "webDavAuthentication.password" = "Wachtwoord";
 "webDavAuthentication.authenticate.progressStatus" = "Bezig met authenticeren…";
+"webDavAuthentication.error.unsupportedProtocol" = "De server lijkt geen WebDAV te ondersteunen.";
 
-"webDavClient.error.unsupportedProtocol" = "De server lijkt geen WebDAV te ondersteunen.";
 "webDavClient.error.connectionFailed" = "Het tot stand brengen van de verbinding is mislukt. Gelieve uw gegevens te controleren.";
 "webDavClient.error.authFailed" = "Onbekende gebruikersnaam en/of wachtwoord.";
 "webDavClient.error.notFound" = "Bron niet gevonden.";
@@ -205,15 +210,15 @@
 /* Mock */
 
 "mock.vault1.name" = "Top Secret";
-"mock.vault1.path" = "Top Secret.cryptomator";
+"mock.vault1.path" = "Top Secret";
 "mock.vault2.name" = "Project X";
-"mock.vault2.path" = "/Projecten/Project X.cryptomator";
+"mock.vault2.path" = "/Projecten/Project X";
 "mock.vault3.name" = "Contracten";
-"mock.vault3.path" = "/Documenten/Contracten.cryptomator";
+"mock.vault3.path" = "/Documenten/Contracten";
 "mock.vault4.name" = "Reis naar Amsterdam";
-"mock.vault4.path" = "/Vakanties/Reis naar Amsterdam.cryptomator";
+"mock.vault4.path" = "/Vakanties/Reis naar Amsterdam";
 "mock.vault5.name" = "Foto's";
-"mock.vault5.path" = "/Persoonlijk/Foto's.cryptomator";
+"mock.vault5.path" = "/Persoonlijk/Foto's";
 
 "mock.file1.name" = "Administratie.numbers";
 "mock.file2.name" = "Definitieve Presentatie.key";

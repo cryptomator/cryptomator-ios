@@ -26,7 +26,6 @@
 "alert.trustSslCertificate.action.dontTrust" = "Don't Trust";
 
 "authentication.iCloudDrive.progressStatus" = "Initializing iCloud Drive…";
-"authentication.oneDrive.progressStatus" = "Initializing OneDrive…";
 "authentication.error.notReachable" = "%@ is not reachable. Try again later!";
 "authentication.error.failed" = "%@ authentication failed.";
 
@@ -73,7 +72,8 @@
 "text.filename" = "Text %@.%@";
 "unknown.filename" = "Untitled %@";
 
-"directoryBrowser.footer.emptyFolder" = "Folder is empty";
+"directoryBrowser.footer.emptyFolder" = "Folder is Empty";
+"directoryBrowser.footer.noSearchResults" = "No Results";
 "directoryBrowser.error.notFound.description" = "\"%@\" could not be found.";
 "directoryBrowser.error.alreadyExists.description" = "\"%@\" already exists.";
 "directoryBrowser.error.uploadFile.description" = "Uploading \"%@\" failed.";
@@ -105,10 +105,13 @@
 "unlock.versionMismatch.message" = "Unsupported vault. This vault has been created with another version of Cryptomator.";
 "unlock.wrongPassword.title" = "Wrong Password";
 "unlock.wrongPassword.message" = "You have entered a wrong password. Please try again!";
+"unlock.unauthenticKeyVersion.title" = "Unauthentic Key Version";
+"unlock.unauthenticKeyVersion.message" = "The version of your masterkey is not authentic. Please ask us for support!";
 
 "fileUpload.title" = "Save to Cryptomator";
 "fileUpload.file" = "File";
 "fileUpload.file.filename" = "Filename";
+"fileUpload.favoriteLocation" = "Favorites";
 "fileUpload.uploadLocation" = "Save Location";
 "fileUpload.uploadLocation.locationChooser" = "Choose Folder…";
 
@@ -122,6 +125,8 @@
 "vaultBrowser.uploadFile.photos" = "Photos";
 "vaultBrowser.uploadFile.progressStatus" = "Preparing…";
 "vaultBrowser.uploadFile.nothingUploadedWarning" = "Nothing has been uploaded.";
+"vaultBrowser.changeSortMode.sortByName" = "Sort by Name";
+"vaultBrowser.changeSortMode.sortByDate" = "Sort by Date";
 
 "settings.title" = "Settings";
 "settings.autoLock" = "Auto-Lock";
@@ -181,14 +186,19 @@
 "webDavAuthentication.username" = "Username";
 "webDavAuthentication.password" = "Password";
 "webDavAuthentication.authenticate.progressStatus" = "Authenticating…";
+"webDavAuthentication.error.missingServerCertificate" = "Server certificate is missing for HTTPS connection.";
+"webDavAuthentication.error.unsupportedProtocol" = "Server doesn't seem to be WebDAV compatible.";
 
-"webDavClient.error.unsupportedProtocol" = "Server doesn't seem to be WebDAV compatible.";
+"webDavClient.error.unexpectedResponse" = "Unexpected response for WebDAV connection.";
 "webDavClient.error.connectionFailed" = "Connection failed. Please check your data.";
 "webDavClient.error.authFailed" = "Wrong username and/or password.";
 "webDavClient.error.notFound" = "Resource \"%@\" not found.";
-"webDavClient.error.methodNotAllowed" = "HTTP method \"%@\" is not allowed.";
+"webDavClient.error.methodNotAllowed" = "HTTP method \"%@\" not allowed.";
 "webDavClient.error.conflict" = "Conflict in request for \"%@\".";
+"webDavClient.error.preconditionFailed" = "Precondition failed in request for \"%@\".";
 "webDavClient.error.httpStatusCode" = "HTTP error %d.";
+
+"webDavDirectoryBrowser.contentsOfDirectory.error.unexpectedResponse" = "Unexpected response for directory listing.";
 
 /* XLForm */
 
@@ -205,15 +215,15 @@
 /* Mock */
 
 "mock.vault1.name" = "Top Secret";
-"mock.vault1.path" = "/Top Secret.cryptomator";
+"mock.vault1.path" = "/Top Secret";
 "mock.vault2.name" = "Project X";
-"mock.vault2.path" = "/Projects/Project X.cryptomator";
+"mock.vault2.path" = "/Projects/Project X";
 "mock.vault3.name" = "Contracts";
-"mock.vault3.path" = "/Documents/Contracts.cryptomator";
+"mock.vault3.path" = "/Documents/Contracts";
 "mock.vault4.name" = "Trip to California";
-"mock.vault4.path" = "/Vacations/Trip to California.cryptomator";
+"mock.vault4.path" = "/Vacations/Trip to California";
 "mock.vault5.name" = "Photos";
-"mock.vault5.path" = "/Personal/Photos.cryptomator";
+"mock.vault5.path" = "/Personal/Photos";
 
 "mock.file1.name" = "Accounting.numbers";
 "mock.file2.name" = "Final Presentation.key";

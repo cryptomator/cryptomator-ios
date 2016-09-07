@@ -26,7 +26,6 @@
 "alert.trustSslCertificate.action.dontTrust" = "Nicht vertrauen";
 
 "authentication.iCloudDrive.progressStatus" = "Initialisiere iCloud Drive…";
-"authentication.oneDrive.progressStatus" = "Initialisiere OneDrive…";
 "authentication.error.notReachable" = "%@ ist nicht erreichbar. Versuchen Sie es später erneut!";
 "authentication.error.failed" = "%@-Authentifizierung fehlgeschlagen.";
 
@@ -74,6 +73,7 @@
 "unknown.filename" = "Ohne Titel %@";
 
 "directoryBrowser.footer.emptyFolder" = "Ordner ist leer";
+"directoryBrowser.footer.noSearchResults" = "Keine Ergebnisse";
 "directoryBrowser.error.notFound.description" = "„%@“ konnte nicht gefunden werden.";
 "directoryBrowser.error.alreadyExists.description" = "„%@“ existiert bereits.";
 "directoryBrowser.error.uploadFile.description" = "„%@“ konnte nicht hochgeladen werden.";
@@ -105,10 +105,13 @@
 "unlock.versionMismatch.message" = "Dieser Tresor wird nicht unterstützt, da dieser mit einer anderen Version von Cryptomator erstellt wurde.";
 "unlock.wrongPassword.title" = "Falsches Passwort";
 "unlock.wrongPassword.message" = "Sie haben ein falsches Passwort eingegeben. Bitte versuchen Sie es erneut!";
+"unlock.unauthenticKeyVersion.title" = "Unauthentische Key-Version";
+"unlock.unauthenticKeyVersion.message" = "Die Version Ihres Masterkeys ist nicht authentisch. Bitte wenden Sie sich an unseren Support!";
 
 "fileUpload.title" = "In Cryptomator speichern";
 "fileUpload.file" = "Datei";
 "fileUpload.file.filename" = "Dateiname";
+"fileUpload.favoriteLocation" = "Favoriten";
 "fileUpload.uploadLocation" = "Speicherort";
 "fileUpload.uploadLocation.locationChooser" = "Ordner auswählen…";
 
@@ -122,6 +125,8 @@
 "vaultBrowser.uploadFile.photos" = "Fotos";
 "vaultBrowser.uploadFile.progressStatus" = "Vorbereiten…";
 "vaultBrowser.uploadFile.nothingUploadedWarning" = "Es wurde nichts hochgeladen.";
+"vaultBrowser.changeSortMode.sortByName" = "Nach Name sortieren";
+"vaultBrowser.changeSortMode.sortByDate" = "Nach Datum sortieren";
 
 "settings.title" = "Einstellungen";
 "settings.autoLock" = "Automatisch sperren";
@@ -181,14 +186,19 @@
 "webDavAuthentication.username" = "Benutzername";
 "webDavAuthentication.password" = "Passwort";
 "webDavAuthentication.authenticate.progressStatus" = "Authentifiziere…";
+"webDavAuthentication.error.missingServerCertificate" = "Server-Zertifikat für HTTPS-Verbindung fehlt.";
+"webDavAuthentication.error.unsupportedProtocol" = "Server scheint nicht WebDAV-kompatibel zu sein.";
 
-"webDavClient.error.unsupportedProtocol" = "Der Server scheint nicht WebDAV-kompatibel zu sein.";
+"webDavClient.error.unexpectedResponse" = "Unerwartete Antwort bei der WebDAV-Verbindung.";
 "webDavClient.error.connectionFailed" = "Verbindung fehlgeschlagen. Bitte überprüfen Sie Ihre Angaben.";
 "webDavClient.error.authFailed" = "Benutzername und/oder Passwort falsch.";
 "webDavClient.error.notFound" = "Ressource „%@“ nicht gefunden.";
-"webDavClient.error.methodNotAllowed" = "HTTP-Methode „%@“ ist nicht erlaubt.";
+"webDavClient.error.methodNotAllowed" = "HTTP-Methode „%@“ nicht erlaubt.";
 "webDavClient.error.conflict" = "Konflikt in der Anfrage für \"%@\" aufgetreten.";
+"webDavClient.error.preconditionFailed" = "Vorbedingung in der Anfrage für \"%@\" nicht erfüllt.";
 "webDavClient.error.httpStatusCode" = "HTTP-Fehler %d.";
+
+"webDavDirectoryBrowser.contentsOfDirectory.error.unexpectedResponse" = "Unerwartete Antwort beim Abruf der Verzeichnisliste.";
 
 /* XLForm */
 
@@ -205,15 +215,15 @@
 /* Mock */
 
 "mock.vault1.name" = "Top Secret";
-"mock.vault1.path" = "/Top Secret.cryptomator";
+"mock.vault1.path" = "/Top Secret";
 "mock.vault2.name" = "Projekt X";
-"mock.vault2.path" = "/Projekte/Projekt X.cryptomator";
+"mock.vault2.path" = "/Projekte/Projekt X";
 "mock.vault3.name" = "Verträge";
-"mock.vault3.path" = "/Dokumente/Verträge.cryptomator";
+"mock.vault3.path" = "/Dokumente/Verträge";
 "mock.vault4.name" = "Reise nach Bonn";
-"mock.vault4.path" = "/Urlaub/Reise nach Bonn.cryptomator";
+"mock.vault4.path" = "/Urlaub/Reise nach Bonn";
 "mock.vault5.name" = "Fotos";
-"mock.vault5.path" = "/Persönlich/Fotos.cryptomator";
+"mock.vault5.path" = "/Persönlich/Fotos";
 
 "mock.file1.name" = "Buchhaltung.numbers";
 "mock.file2.name" = "Abschlusspräsentation.key";
