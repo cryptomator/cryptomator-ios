@@ -109,7 +109,8 @@
 "unlock.unauthenticKeyVersion.message" = "Die Version Ihres Masterkeys ist nicht authentisch. Bitte wenden Sie sich an unseren Support!";
 
 "fileUpload.title" = "In Cryptomator speichern";
-"fileUpload.file" = "Datei";
+"fileUpload.file" = "Dateien";
+"fileUpload.file.1" = "Datei";
 "fileUpload.file.filename" = "Dateiname";
 "fileUpload.favoriteLocation" = "Favoriten";
 "fileUpload.uploadLocation" = "Speicherort";

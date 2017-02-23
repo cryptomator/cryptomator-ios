@@ -109,7 +109,8 @@
 "unlock.unauthenticKeyVersion.message" = "De versie van de hoofdsleutel is niet authentiek. Gelieve contact met ons op te nemen!";
 
 "fileUpload.title" = "Opslaan naar Cryptomator";
-"fileUpload.file" = "Bestand";
+"fileUpload.file" = "Bestanden";
+"fileUpload.file.1" = "Bestand";
 "fileUpload.file.filename" = "Bestandsnaam";
 "fileUpload.favoriteLocation" = "Favorieten";
 "fileUpload.uploadLocation" = "Bewaar Locatie";
