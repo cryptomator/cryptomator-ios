@@ -1,0 +1,236 @@
+/* 
+  Localizable.strings
+  Cryptomator
+
+  Created by Tobias Hagemann on 19/02/15.
+  Copyright (c) 2015 setoLabs. All rights reserved.
+*/
+
+"common.ok" = "OK";
+"common.cancel" = "Отмена";
+"common.yes" = "Да";
+"common.no" = "Нет";
+"common.inQuotes" = "«%@»";
+
+/* CryptomatorCommon */
+
+"alert.unableToAuthenticate.title" = "Не удалось авторизоваться";
+"alert.unableToAuthenticate.message" = "Авторизуйтесь в %@ с помощью приложения Cryptomator.";
+"alert.unableToUploadFile.title" = "Не удалось отправить файл";
+"alert.unableToUploadFile.message" = "Нет ни одного хранилища. Сначала создайте хранилище в приложении Cryptomator.";
+"alert.replaceFile.title" = "Заменить файл?";
+"alert.replaceFile.message" = "Файл «%@» уже существует. Заменить его?";
+"alert.trustSslCertificate.title" = "Неверный SSL-сертификат";
+"alert.trustSslCertificate.message" = "SSL-сертификат «%@» некорректный. Всё равно доверяете ему?\n\nSHA1: %@";
+"alert.trustSslCertificate.action.trust" = "Доверяю";
+"alert.trustSslCertificate.action.dontTrust" = "Не доверяю";
+
+"authentication.iCloudDrive.progressStatus" = "Инициализация iCloud Drive...";
+"authentication.error.notReachable" = "Нет доступа к %@. Попробуйте позже.";
+"authentication.error.failed" = "Ошибка авторизации %@.";
+
+"vault.defaultName" = "Хранилище";
+"vault.rename.progressStatus" = "Переименование хранилища…";
+"vault.move.progressStatus" = "Перемещение хранилища…";
+"vault.create.progressStatus" = "Создание хранилища…";
+"vault.lock" = "Заблокировать хранилище";
+
+"vaults.title" = "Cryptomator";
+"vaults.add.alreadyAdded.title" = "Уже существует";
+"vaults.add.alreadyAdded.message" = "«%@» уже добавлено.";
+"vaults.remove.confirmation.title" = "Хранилище будет лишь убрано из списка, но не удалено физически. Хотите убрать «%@» из списка?";
+"vaults.remove.confirmation.remove" = "Убрать это хранилище";
+
+"folder.rename.progressStatus" = "Переименование папки…";
+"folder.move.progressStatus" = "Перемещение папки…";
+"folder.delete.confirmation.title" = "Всё содержимое папки будет удалено. Действительно удалить «%@»?";
+"folder.delete.confirmation.delete" = "Удалить эту папку";
+"folder.delete.progressStatus" = "Удаление папки…";
+"folder.create" = "Создать папку";
+"folder.create.progressStatus" = "Создание папки…";
+
+"file.lastModified" = "изменено %@";
+"file.download.progressStatus" = "Загрузка файла…";
+"file.download.progressStatus.downloading" = "Загрузка файла…";
+"file.download.progressStatus.authenticating" = "Проверка подлинности файла…";
+"file.download.progressStatus.decrypting" = "Дешифрование файла…";
+"file.authentication.failed" = "Внимание: ошибка авторизации MAC\n\nCryptomator обнаружил потенциально опасные повреждения.";
+"file.authentication.failed.continue" = "Продолжить, я буду осторожен";
+"file.authentication.failed.learnMore" = "Подробнее";
+"file.upload" = "Отправить файл";
+"file.upload.progressStatus" = "Сохранение файла…";
+"file.upload.progressStatus.encrypting" = "Шифрование файла…";
+"file.upload.progressStatus.uploading" = "Отправка файла…";
+"file.rename.progressStatus" = "Переименование файла…";
+"file.move.progressStatus" = "Перемещение файла…";
+"file.delete.confirmation.title" = "Действительно удалить «%@»?";
+"file.delete.confirmation.delete" = "Удалить этот файл";
+"file.delete.progressStatus" = "Удаление файла…";
+
+"photo.filename" = "Фото %@.%@";
+"video.filename" = "Видео %@.%@";
+"text.filename" = "Текст %@.%@";
+"unknown.filename" = "Безымянный %@";
+
+"directoryBrowser.footer.emptyFolder" = "Папка пуста";
+"directoryBrowser.footer.noSearchResults" = "Нет результатов";
+"directoryBrowser.error.notFound.description" = "Не удалось найти «%@».";
+"directoryBrowser.error.alreadyExists.description" = "«%@» уже существует.";
+"directoryBrowser.error.uploadFile.description" = "Ошибка отправки «%@».";
+"directoryBrowser.error.procedureCanceled.description" = "Операция отменена.";
+
+"filenameSetter.title.renameVault" = "Переименовать хранилище";
+"filenameSetter.title.renameFolder" = "Переименовать папку";
+"filenameSetter.title.renameFile" = "Переименовать файл";
+"filenameSetter.title.createVault" = "Создать хранилище";
+"filenameSetter.title.createFolder" = "Создать папку";
+"filenameSetter.rename" = "Переименовать";
+"filenameSetter.create" = "Создать";
+"filenameSetter.filename.vault" = "Имя хранилища";
+"filenameSetter.filename.folder" = "Имя папки";
+"filenameSetter.filename.file" = "Имя файла";
+
+"locationChooserVaults.title" = "Выбор хранилища";
+"locationChooser.prompt" = "Выберите целевое место";
+"locationChooser.choose" = "Выбрать";
+"locationChooser.warning.sameLocation" = "Вы пытаетесь выбрать то же самое целевое место.";
+
+"unlock.touchId" = "Разблокируйте «%@»";
+"unlock.progressStatus" = "Разблокировка…";
+"unlock.unlock" = "Открыть";
+"unlock.password" = "Пароль";
+"unlock.invalidMasterKey.title" = "Неверный мастер-ключ";
+"unlock.invalidMasterKey.message" = "Ошибка мастер-ключа. Свяжитесь с нами!";
+"unlock.versionMismatch.title" = "Неподходящая версия";
+"unlock.versionMismatch.message" = "Это хранилище не поддерживается - оно было создано в другой версии Cryptomator.";
+"unlock.wrongPassword.title" = "Неверный пароль";
+"unlock.wrongPassword.message" = "Вы ввели неправильный пароль. Попробуйте снова.";
+"unlock.unauthenticKeyVersion.title" = "Недостоверная версия ключа";
+"unlock.unauthenticKeyVersion.message" = "Недостоверная версия мастер-ключа. Свяжитесь с нами!";
+
+"fileUpload.title" = "Сохранить в Cryptomator";
+"fileUpload.file" = "Файлы";
+"fileUpload.file.1" = "Файл";
+"fileUpload.file.filename" = "Имя файла";
+"fileUpload.favoriteLocation" = "Избранное";
+"fileUpload.uploadLocation" = "Место сохранения";
+"fileUpload.uploadLocation.locationChooser" = "Выберите папку…";
+
+/* Cryptomator */
+
+"migration.askToUpgrade.title" = "Требуется преобразование";
+"migration.askToUpgrade.message" = "Это хранилище нужно преобразовать в более новый формат. «%@» получит имя «%@».";
+"migration.proceed" = "Преобразовать";
+"migration.progressStatus" = "Преобразование…";
+
+"vaultBrowser.uploadFile.photos" = "Фото";
+"vaultBrowser.uploadFile.progressStatus" = "Подготовка…";
+"vaultBrowser.uploadFile.nothingUploadedWarning" = "Ничего не отправлено.";
+"vaultBrowser.changeSortMode.sortByName" = "Сортировка по имени";
+"vaultBrowser.changeSortMode.sortByDate" = "Сортировка по дате";
+
+"settings.title" = "Настройки";
+"settings.autoLock" = "Автоблокировка";
+"settings.autoLock.instant" = "Сразу";
+"settings.autoLock.after1Minute" = "1 мин";
+"settings.autoLock.after2Minutes" = "2 мин";
+"settings.autoLock.after5Minutes" = "5 мин";
+"settings.autoLock.after10Minutes" = "10 мин";
+"settings.cloudServices" = "Облачные сервисы";
+"settings.touchId" = "Touch ID";
+"settings.appInformation" = "О Cryptomator";
+"settings.help" = "Справка и поддержка";
+"settings.contact" = "Контакты";
+"settings.rateApp" = "Оценить";
+
+"cloudServicesSettings.title" = "Облачные сервисы";
+"cloudServicesSettings.row.initialState" = "Инициализация %@…";
+"cloudServicesSettings.row.loggedOutState" = "Войти в %@";
+"cloudServicesSettings.row.loggedInState" = "Выйти из %@";
+"cloudServicesSettings.section.footer.loggedInState" = "Вы вошли как %@";
+"cloudServicesSettings.row.multipleAccounts" = "%@-подключения";
+"cloudServicesSettings.row.iCloudDrive" = "Об iCloud Drive";
+"cloudServicesSettings.iCloudDrive.message" = "Вы не можете отсюда управлять своей учётной записью iCloud Drive. Вход и выход выполняются в настройках iOS.";
+
+"touchIdSettings.title" = "Touch ID";
+"touchIdSettings.activate" = "Использовать Touch ID";
+
+"appInformation.title" = "Версия %@ (%@)";
+
+"help.url" = "https://cryptomator.org/help/";
+
+"contact.url" = "https://cryptomator.org/contact/";
+
+"addVault.title" = "Добавьте хранилище";
+"addVault.onboarding" = "Зашифруйте своё облако, создав новое хранилище или добавив имеющееся.";
+"addVault.createNewVault" = "СОЗДАТЬ НОВОЕ";
+"addVault.addExistingVault" = "ДОБАВИТЬ ИМЕЮЩЕЕСЯ";
+
+"storageTypeChooser.title" = "Выберите сервис";
+
+"cloudChooser.footer.empty" = "Пока не настроено никаких подключений %@.\nНажмите «+» вверху справа, чтобы добавить подключение.";
+"cloudChooser.remove.confirmation.title" = "Действительно удалить «%@»?";
+"cloudChooser.remove.confirmation.remove" = "Удалить это облако";
+
+"passwordSetter.title" = "Задайте пароль";
+"passwordSetter.password" = "Пароль";
+"passwordSetter.retypedPassword" = "Введите пароль ещё раз";
+"passwordSetter.footer" = "ВАЖНО: Если вы забудете пароль, восстановить ваши данные не удастся!";
+
+"vaultChooser.prompt" = "Выберите имеющееся хранилище";
+"vaultChooser.footer.isVault" = "Это хранилище. Выберите файл «masterkey.cryptomator» для добавления в него.";
+
+/* WebDAV */
+
+"webDavAuthentication.title" = "WebDAV";
+"webDavAuthentication.url" = "URL";
+"webDavAuthentication.username" = "Логин";
+"webDavAuthentication.password" = "Пароль";
+"webDavAuthentication.authenticate.progressStatus" = "Авторизация…";
+"webDavAuthentication.error.missingServerCertificate" = "Нет сертификата сервера для HTTPS-соединения.";
+"webDavAuthentication.error.unsupportedProtocol" = "Видимо, сервер не совместим с WebDAV.";
+
+"webDavClient.error.unexpectedResponse" = "Неожиданный ответ для WebDAV-соединения.";
+"webDavClient.error.connectionFailed" = "Ошибка подключения. Проверьте свои данные.";
+"webDavClient.error.authFailed" = "Неверный логин и/или пароль.";
+"webDavClient.error.notFound" = "Не найден ресурс «%@».";
+"webDavClient.error.methodNotAllowed" = "HTTP-метод «%@» не разрешён.";
+"webDavClient.error.conflict" = "Конфликт в запросе «%@».";
+"webDavClient.error.preconditionFailed" = "Не выполнено предварительное условие в запросе «%@».";
+"webDavClient.error.httpStatusCode" = "HTTP-ошибка %d.";
+
+"webDavDirectoryBrowser.contentsOfDirectory.error.unexpectedResponse" = "Неожиданный ответ листинга папки.";
+
+/* XLForm */
+
+"XLFormViewController_ValidationErrorTitle" = "Упс!";
+"%@ can't be empty" = "%@ не может быть пустым.";
+
+"notEqualToOldFilenameValidator.invalidMessage" = "%@ не может быть тем же, что и старый.";
+"allowedCharactersInFilenameValidator.invalidMessage" = "%@ содержит недопустимые символы.";
+"uniqueFilenamesValidator.invalidMessage" = "Имена файлов должны быть уникальными. Переименуйте дубликаты.";
+"matchingPasswordsValidator.invalidMessage" = "Пароли не совпадают.";
+"urlHostNotNull.invalidMessage" = "Неверный URL. Требуется хотя бы хост.";
+"conformsToUrlScheme.invalidMessage" = "Неверный URL. Разрешены только эти схемы: %@";
+
+/* Mock */
+
+"mock.vault1.name" = "Совершенно секретно";
+"mock.vault1.path" = "/Совершенно секретно";
+"mock.vault2.name" = "Проект X";
+"mock.vault2.path" = "/Проекты/Проект X";
+"mock.vault3.name" = "Контракты";
+"mock.vault3.path" = "/Документы/Контракты";
+"mock.vault4.name" = "Поездка в Крым";
+"mock.vault4.path" = "/Отпуск/Поездка в Крым";
+"mock.vault5.name" = "Фото";
+"mock.vault5.path" = "/Личное/Фото";
+
+"mock.file1.name" = "Бухгалтерия.numbers";
+"mock.file2.name" = "Итоговая презентация.key";
+"mock.file3.name" = "Домашнее задание.docx";
+"mock.file4.name" = "Удостоверение.pdf";
+"mock.file5.name" = "Кошка Муся.mov";
+"mock.folder1.name" = "Секретный проект";
+"mock.folder2.name" = "Счета";
+"mock.folder3.name" = "Сертификаты";
