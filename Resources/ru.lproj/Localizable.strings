@@ -26,6 +26,7 @@
 "alert.trustSslCertificate.action.dontTrust" = "Не доверяю";
 
 "authentication.iCloudDrive.progressStatus" = "Инициализация iCloud Drive...";
+"authentication.dropbox.progressStatus" = "Инициализация Dropbox...";
 "authentication.error.notReachable" = "Нет доступа к %@. Попробуйте позже.";
 "authentication.error.failed" = "Ошибка авторизации %@.";
 

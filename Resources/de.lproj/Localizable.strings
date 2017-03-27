@@ -26,6 +26,7 @@
 "alert.trustSslCertificate.action.dontTrust" = "Nicht vertrauen";
 
 "authentication.iCloudDrive.progressStatus" = "Initialisiere iCloud Drive…";
+"authentication.dropbox.progressStatus" = "Initialisiere Dropbox…";
 "authentication.error.notReachable" = "%@ ist nicht erreichbar. Versuchen Sie es später erneut!";
 "authentication.error.failed" = "%@-Authentifizierung fehlgeschlagen.";
 

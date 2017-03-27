@@ -26,6 +26,7 @@
 "alert.trustSslCertificate.action.dontTrust" = "Niet vertrouwen";
 
 "authentication.iCloudDrive.progressStatus" = "Het gebruik van iCloud Drive voorbereiden…";
+"authentication.dropbox.progressStatus" = "Het gebruik van Dropbox voorbereiden…";
 "authentication.error.notReachable" = "%@ is niet beschikbaar. Probeer later opnieuw!";
 "authentication.error.failed" = "%@ authenticatie mislukt.";
 
