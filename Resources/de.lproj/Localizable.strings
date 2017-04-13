@@ -125,7 +125,7 @@
 "migration.progressStatus" = "Aktualisiere…";
 
 "vaultBrowser.uploadFile.photos" = "Fotos";
-"vaultBrowser.uploadFile.progressStatus" = "Vorbereiten…";
+"vaultBrowser.uploadFile.progressStatus" = "Bereite vor…";
 "vaultBrowser.uploadFile.nothingUploadedWarning" = "Es wurde nichts hochgeladen.";
 "vaultBrowser.changeSortMode.sortByName" = "Nach Name sortieren";
 "vaultBrowser.changeSortMode.sortByDate" = "Nach Datum sortieren";
