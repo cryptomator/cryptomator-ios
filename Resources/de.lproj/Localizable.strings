@@ -181,6 +181,10 @@
 "vaultChooser.prompt" = "Wählen Sie einen vorhandenen Tresor aus.";
 "vaultChooser.footer.isVault" = "Dies ist ein Tresor. Wählen Sie die „masterkey.cryptomator“-Datei aus, um diesen Tresor hinzuzufügen.";
 
+/* Dropbox */
+
+"dropboxDirectoryBrowser.routeError" = "Unerwarteter Fehler. (%@, Code: %zd)";
+
 /* WebDAV */
 
 "webDavAuthentication.title" = "WebDAV";
@@ -208,7 +212,7 @@
 "%@ can't be empty" = "%@ muss ausgefüllt werden.";
 
 "notEqualToOldFilenameValidator.invalidMessage" = "%@ kann nicht derselbe sein wie der alte.";
-"allowedCharactersInFilenameValidator.invalidMessage" = "%@ beinhaltet unerlaubte Zeichen.";
+"filenameValidator.invalidMessage" = "%@ sollte kein \\ / : * ? \" < > | beinhalten oder auf einem Punkt/Leerzeichen enden.";
 "uniqueFilenamesValidator.invalidMessage" = "Dateinamen müssen eindeutig sein, bitte benennen Sie die Duplikate um.";
 "matchingPasswordsValidator.invalidMessage" = "Passwort stimmt nicht mit dem wiederholten Passwort überein.";
 "urlHostNotNull.invalidMessage" = "URL ist ungültig. Diese benötigt zumindest einen Host.";

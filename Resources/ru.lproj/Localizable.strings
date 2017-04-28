@@ -208,7 +208,6 @@
 "%@ can't be empty" = "%@ не может быть пустым.";
 
 "notEqualToOldFilenameValidator.invalidMessage" = "%@ не может быть тем же, что и старый.";
-"allowedCharactersInFilenameValidator.invalidMessage" = "%@ содержит недопустимые символы.";
 "uniqueFilenamesValidator.invalidMessage" = "Имена файлов должны быть уникальными. Переименуйте дубликаты.";
 "matchingPasswordsValidator.invalidMessage" = "Пароли не совпадают.";
 "urlHostNotNull.invalidMessage" = "Неверный URL. Требуется хотя бы хост.";

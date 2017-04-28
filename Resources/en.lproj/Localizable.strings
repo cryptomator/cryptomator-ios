@@ -181,6 +181,10 @@
 "vaultChooser.prompt" = "Choose an existing vault.";
 "vaultChooser.footer.isVault" = "This is a vault. Select the \"masterkey.cryptomator\" file to add this vault.";
 
+/* Dropbox */
+
+"dropboxDirectoryBrowser.routeError" = "Unexpected error. (%@, Code: %zd)";
+
 /* WebDAV */
 
 "webDavAuthentication.title" = "WebDAV";
@@ -208,7 +212,7 @@
 "%@ can't be empty" = "%@ can't be empty.";
 
 "notEqualToOldFilenameValidator.invalidMessage" = "%@ can't be the same as the old one.";
-"allowedCharactersInFilenameValidator.invalidMessage" = "%@ contains disallowed characters.";
+"filenameValidator.invalidMessage" = "%@ should not contain \\ / : * ? \" < > | or end with a period/space.";
 "uniqueFilenamesValidator.invalidMessage" = "Filenames have to be unique, please rename the duplicates.";
 "matchingPasswordsValidator.invalidMessage" = "Password doesn't match retyped password.";
 "urlHostNotNull.invalidMessage" = "URL is invalid. At least it needs a host.";

@@ -203,7 +203,6 @@
 "%@ can't be empty" = "%@ kan niet leeg zijn.";
 
 "notEqualToOldFilenameValidator.invalidMessage" = "%@ kan niet dezelfde zijn als de oude.";
-"allowedCharactersInFilenameValidator.invalidMessage" = "%@ bevat niet-toegestane tekens.";
 "uniqueFilenamesValidator.invalidMessage" = "Bestandsnamen dienen uniek te zijn, gelieve de kopieën te hernoemen.";
 "matchingPasswordsValidator.invalidMessage" = "Het wachtwoord komt niet overeen met het opnieuw ingevoerde wachtwoord.";
 "urlHostNotNull.invalidMessage" = "URL is ongeldig. Tenminste een hostnaam is noodzakelijk.";
