@@ -21,7 +21,7 @@
 "alert.replaceFile.title" = "Bestand vervangen?";
 "alert.replaceFile.message" = "Een bestand met de naam \"%@\" bestaat al. Wilt u deze overschrijven?";
 "alert.trustSslCertificate.title" = "Ongeldig SSL Certificaat";
-"alert.trustSslCertificate.message" = "Het SSL certificaat van \"%@\" is ongeldig. Wil u het desondanks toch vertrouwen?\n\nSHA1: %@";
+"alert.trustSslCertificate.message" = "Het SSL certificaat van \"%@\" is ongeldig. Wil u het desondanks toch vertrouwen?\n\nSHA-256: %@";
 "alert.trustSslCertificate.action.trust" = "Vertrouw";
 "alert.trustSslCertificate.action.dontTrust" = "Niet vertrouwen";
 
@@ -170,6 +170,8 @@
 "storageTypeChooser.title" = "Selecteer Cloud dienst";
 
 "cloudChooser.footer.empty" = "U heeft nog geen %@ verbindingen ingesteld. Gebruik de \"+\" knop rechtsonder om een verblinding in te stellen.";
+"cloudChooser.add.alreadyAdded.title" = "Reeds in gebruik";
+"cloudChooser.add.alreadyAdded.message" = "\"%@\" is reeds toegevoegd.";
 "cloudChooser.remove.confirmation.title" = "Weet u zeker dat u %@ wil verwijderen?";
 "cloudChooser.remove.confirmation.remove" = "Verwijder deze Cloud dienst";
 

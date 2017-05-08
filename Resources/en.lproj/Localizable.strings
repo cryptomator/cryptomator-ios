@@ -21,7 +21,7 @@
 "alert.replaceFile.title" = "Replace File?";
 "alert.replaceFile.message" = "A file named \"%@\" already exists. Do you want to replace it?";
 "alert.trustSslCertificate.title" = "Invalid SSL Certificate";
-"alert.trustSslCertificate.message" = "The SSL certificate of \"%@\" is invalid. Do you want to trust it anyway?\n\nSHA1: %@";
+"alert.trustSslCertificate.message" = "The SSL certificate of \"%@\" is invalid. Do you want to trust it anyway?\n\nSHA-256: %@";
 "alert.trustSslCertificate.action.trust" = "Trust";
 "alert.trustSslCertificate.action.dontTrust" = "Don't Trust";
 
@@ -170,6 +170,8 @@
 "storageTypeChooser.title" = "Choose Cloud Service";
 
 "cloudChooser.footer.empty" = "You haven't set up any %@ connections yet.\nAdd one by tapping the \"+\" button at the top-right.";
+"cloudChooser.add.alreadyAdded.title" = "Already Exists";
+"cloudChooser.add.alreadyAdded.message" = "\"%@\" has already been added.";
 "cloudChooser.remove.confirmation.title" = "Are you sure you want to remove \"%@\"?";
 "cloudChooser.remove.confirmation.remove" = "Remove this Cloud";
 

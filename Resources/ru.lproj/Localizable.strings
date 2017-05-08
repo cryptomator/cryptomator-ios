@@ -21,7 +21,7 @@
 "alert.replaceFile.title" = "Заменить файл?";
 "alert.replaceFile.message" = "Файл «%@» уже существует. Заменить его?";
 "alert.trustSslCertificate.title" = "Неверный SSL-сертификат";
-"alert.trustSslCertificate.message" = "SSL-сертификат «%@» некорректный. Всё равно доверяете ему?\n\nSHA1: %@";
+"alert.trustSslCertificate.message" = "SSL-сертификат «%@» некорректный. Всё равно доверяете ему?\n\nSHA-256: %@";
 "alert.trustSslCertificate.action.trust" = "Доверяю";
 "alert.trustSslCertificate.action.dontTrust" = "Не доверяю";
 
@@ -170,6 +170,8 @@
 "storageTypeChooser.title" = "Выберите сервис";
 
 "cloudChooser.footer.empty" = "Пока не настроено никаких подключений %@.\nНажмите «+» вверху справа, чтобы добавить подключение.";
+"cloudChooser.add.alreadyAdded.title" = "Уже существует";
+"cloudChooser.add.alreadyAdded.message" = "«%@» уже добавлено.";
 "cloudChooser.remove.confirmation.title" = "Действительно удалить «%@»?";
 "cloudChooser.remove.confirmation.remove" = "Удалить это облако";
 

@@ -21,7 +21,7 @@
 "alert.replaceFile.title" = "Datei ersetzen?";
 "alert.replaceFile.message" = "Eine Datei namens „%@“ existiert bereits. Wollen Sie diese ersetzen?";
 "alert.trustSslCertificate.title" = "Ungültiges SSL-Zertifikat";
-"alert.trustSslCertificate.message" = "Das SSL-Zertifikat von „%@“ ist ungültig. Wollen Sie diesem trotzdem vertrauen?\n\nSHA1: %@";
+"alert.trustSslCertificate.message" = "Das SSL-Zertifikat von „%@“ ist ungültig. Wollen Sie diesem trotzdem vertrauen?\n\nSHA-256: %@";
 "alert.trustSslCertificate.action.trust" = "Vertrauen";
 "alert.trustSslCertificate.action.dontTrust" = "Nicht vertrauen";
 
@@ -170,6 +170,8 @@
 "storageTypeChooser.title" = "Cloud-Dienst auswählen";
 
 "cloudChooser.footer.empty" = "Sie haben bisher noch keine %@-Verbindungen eingerichtet.\nFügen Sie eine über das „+“-Symbol oben rechts hinzu.";
+"cloudChooser.add.alreadyAdded.title" = "Bereits vorhanden";
+"cloudChooser.add.alreadyAdded.message" = "„%@“ wurde bereits hinzugefügt.";
 "cloudChooser.remove.confirmation.title" = "Sind Sie sicher, dass Sie „%@“ entfernen wollen?";
 "cloudChooser.remove.confirmation.remove" = "Cloud entfernen";
 
