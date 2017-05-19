@@ -20,6 +20,10 @@
 "alert.unableToUploadFile.message" = "Sie haben keinen Tresor eingerichtet. Bitte legen Sie zuerst einen Tresor mit der Cryptomator-App an.";
 "alert.replaceFile.title" = "Datei ersetzen?";
 "alert.replaceFile.message" = "Eine Datei namens „%@“ existiert bereits. Wollen Sie diese ersetzen?";
+"alert.changeToHttps.title" = "HTTPS nutzen?";
+"alert.changeToHttps.message" = "Die Verwendung von HTTP ist unsicher. Wir empfehlen stattdessen die Nutzung von HTTPS. Wenn Sie sich der Risiken bewusst sind, können Sie mit HTTP fortfahren.";
+"alert.changeToHttps.action.changeToHttps" = "Zu HTTPS ändern";
+"alert.changeToHttps.action.keepHttp" = "HTTP behalten";
 "alert.trustSslCertificate.title" = "Ungültiges SSL-Zertifikat";
 "alert.trustSslCertificate.message" = "Das SSL-Zertifikat von „%@“ ist ungültig. Wollen Sie diesem trotzdem vertrauen?\n\nSHA-256: %@";
 "alert.trustSslCertificate.action.trust" = "Vertrauen";

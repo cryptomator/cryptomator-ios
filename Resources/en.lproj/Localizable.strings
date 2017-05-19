@@ -20,6 +20,10 @@
 "alert.unableToUploadFile.message" = "You haven't set up any vaults. Please create a new vault with the Cryptomator app first.";
 "alert.replaceFile.title" = "Replace File?";
 "alert.replaceFile.message" = "A file named \"%@\" already exists. Do you want to replace it?";
+"alert.changeToHttps.title" = "Use HTTPS?";
+"alert.changeToHttps.message" = "The usage of HTTP is insecure. We recommend to use HTTPS instead. If you know the risks, you can continue with HTTP.";
+"alert.changeToHttps.action.changeToHttps" = "Change to HTTPS";
+"alert.changeToHttps.action.keepHttp" = "Keep HTTP";
 "alert.trustSslCertificate.title" = "Invalid SSL Certificate";
 "alert.trustSslCertificate.message" = "The SSL certificate of \"%@\" is invalid. Do you want to trust it anyway?\n\nSHA-256: %@";
 "alert.trustSslCertificate.action.trust" = "Trust";
