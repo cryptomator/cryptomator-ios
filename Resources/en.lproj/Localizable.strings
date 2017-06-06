@@ -84,6 +84,11 @@
 "directoryBrowser.error.uploadFile.description" = "Uploading \"%@\" failed.";
 "directoryBrowser.error.procedureCanceled.description" = "Procedure canceled.";
 
+"emptyDirectoryFile.title" = "\"%@\" unreachable";
+"emptyDirectoryFile.header" = "Cryptomator detected that this folder is unreachable";
+"emptyDirectoryFile.message" = "It may have been deleted by another application or a faulty cloud synchronization could have caused this.\n\nTry to restore the directory file via your cloud provider to a previous version which is not empty. The file in question is:\n%@\n\nIf that does not work, you may use Sanitizer to check your vault for issues and possibly restore your data.";
+"emptyDirectoryFile.learnMore" = "More Details on Sanitizer";
+
 "filenameSetter.title.renameVault" = "Rename Vault";
 "filenameSetter.title.renameFolder" = "Rename Folder";
 "filenameSetter.title.renameFile" = "Rename File";
