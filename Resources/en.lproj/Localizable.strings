@@ -2,8 +2,8 @@
   Localizable.strings
   Cryptomator
 
-  Created by Tobias Hagemann on 19/02/15.
-  Copyright (c) 2015 setoLabs. All rights reserved.
+  Created by Tobias Hagemann on 19.02.15.
+  Copyright © 2015-2017 Skymatic. All rights reserved.
 */
 
 "common.ok" = "OK";
@@ -41,6 +41,10 @@
 "vault.lock" = "Lock Vault";
 
 "vaults.title" = "Cryptomator";
+"vaults.actions.lock" = "Lock";
+"vaults.actions.rename" = "Rename";
+"vaults.actions.move" = "Move";
+"vaults.actions.remove" = "Remove";
 "vaults.add.alreadyAdded.title" = "Already Exists";
 "vaults.add.alreadyAdded.message" = "\"%@\" has already been added.";
 "vaults.remove.confirmation.title" = "This action will only remove the vault from this list and not delete it physically. Are you sure you want to remove \"%@\"?";
@@ -79,6 +83,9 @@
 
 "directoryBrowser.footer.emptyFolder" = "Folder is Empty";
 "directoryBrowser.footer.noSearchResults" = "No Results";
+"directoryBrowser.actions.rename" = "Rename";
+"directoryBrowser.actions.move" = "Move";
+"directoryBrowser.actions.delete" = "Delete";
 "directoryBrowser.error.notFound.description" = "\"%@\" could not be found.";
 "directoryBrowser.error.alreadyExists.description" = "\"%@\" already exists.";
 "directoryBrowser.error.uploadFile.description" = "Uploading \"%@\" failed.";
@@ -179,6 +186,7 @@
 "storageTypeChooser.title" = "Choose Cloud Service";
 
 "cloudChooser.footer.empty" = "You haven't set up any %@ connections yet.\nAdd one by tapping the \"+\" button at the top-right.";
+"cloudChooser.actions.remove" = "Remove";
 "cloudChooser.add.alreadyAdded.title" = "Already Exists";
 "cloudChooser.add.alreadyAdded.message" = "\"%@\" has already been added.";
 "cloudChooser.remove.confirmation.title" = "Are you sure you want to remove \"%@\"?";

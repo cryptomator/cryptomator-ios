@@ -2,8 +2,8 @@
   Localizable.strings
   Cryptomator
 
-  Created by Tobias Hagemann on 19/02/15.
-  Copyright (c) 2015 setoLabs. All rights reserved.
+  Created by Tobias Hagemann on 19.02.15.
+  Copyright © 2015-2017 Skymatic. All rights reserved.
 */
 
 "common.ok" = "OK";
@@ -41,6 +41,10 @@
 "vault.lock" = "Tresor sperren";
 
 "vaults.title" = "Cryptomator";
+"vaults.actions.lock" = "Sperren";
+"vaults.actions.rename" = "Umbenennen";
+"vaults.actions.move" = "Verschieben";
+"vaults.actions.remove" = "Entfernen";
 "vaults.add.alreadyAdded.title" = "Bereits vorhanden";
 "vaults.add.alreadyAdded.message" = "„%@“ wurde bereits hinzugefügt.";
 "vaults.remove.confirmation.title" = "Dieser Vorgang wird den Tresor nur aus dieser Liste entfernen und nicht tatsächlich löschen. Sind Sie sicher, dass Sie „%@“ entfernen wollen?";
@@ -79,10 +83,18 @@
 
 "directoryBrowser.footer.emptyFolder" = "Ordner ist leer";
 "directoryBrowser.footer.noSearchResults" = "Keine Ergebnisse";
+"directoryBrowser.actions.rename" = "Umbenennen";
+"directoryBrowser.actions.move" = "Verschieben";
+"directoryBrowser.actions.delete" = "Löschen";
 "directoryBrowser.error.notFound.description" = "„%@“ konnte nicht gefunden werden.";
 "directoryBrowser.error.alreadyExists.description" = "„%@“ existiert bereits.";
 "directoryBrowser.error.uploadFile.description" = "„%@“ konnte nicht hochgeladen werden.";
 "directoryBrowser.error.procedureCanceled.description" = "Vorgang abgebrochen.";
+
+"emptyDirectoryFile.title" = "\"%@\" nicht erreichbar";
+"emptyDirectoryFile.header" = "Cryptomator hat erkannt, dass dieser Ordner nicht erreichbar ist";
+"emptyDirectoryFile.message" = "Möglicherweise wurde dieser durch eine andere Anwendung gelöscht oder wurde durch eine fehlerhafte Synchronisation mit der Cloud verursacht.\n\nVersuchen Sie die Verzeichnisdatei über Ihren Cloud-Anbieter auf eine vorhergehende Version, die nicht leer ist, wiederherzustellen. Die betroffene Datei ist:\n%@\n\nFalls dies nicht funktioniert, könnten Sie Sanitizer verwenden, um Ihren Tresor auf Fehler zu überprüfen und möglicherweise Daten wiederherzustellen.";
+"emptyDirectoryFile.learnMore" = "Mehr über Sanitizer";
 
 "filenameSetter.title.renameVault" = "Tresor umbenennen";
 "filenameSetter.title.renameFolder" = "Ordner umbenennen";
@@ -174,6 +186,7 @@
 "storageTypeChooser.title" = "Cloud-Dienst auswählen";
 
 "cloudChooser.footer.empty" = "Sie haben bisher noch keine %@-Verbindungen eingerichtet.\nFügen Sie eine über das „+“-Symbol oben rechts hinzu.";
+"cloudChooser.actions.remove" = "Entfernen";
 "cloudChooser.add.alreadyAdded.title" = "Bereits vorhanden";
 "cloudChooser.add.alreadyAdded.message" = "„%@“ wurde bereits hinzugefügt.";
 "cloudChooser.remove.confirmation.title" = "Sind Sie sicher, dass Sie „%@“ entfernen wollen?";
