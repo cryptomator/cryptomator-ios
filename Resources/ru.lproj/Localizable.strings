@@ -20,6 +20,10 @@
 "alert.unableToUploadFile.message" = "Нет ни одного хранилища. Сначала создайте хранилище в приложении Cryptomator.";
 "alert.replaceFile.title" = "Заменить файл?";
 "alert.replaceFile.message" = "Файл «%@» уже существует. Заменить его?";
+"alert.changeToHttps.title" = "Использовать HTTPS?";
+"alert.changeToHttps.message" = "Протокол HTTP небезопасен. Рекомендуем использовать HTTPS. Если вы понимаете риск, то можете продолжить с HTTP.";
+"alert.changeToHttps.action.changeToHttps" = "Изменить на HTTPS";
+"alert.changeToHttps.action.keepHttp" = "Оставить HTTP";
 "alert.trustSslCertificate.title" = "Неверный SSL-сертификат";
 "alert.trustSslCertificate.message" = "SSL-сертификат «%@» некорректный. Всё равно доверяете ему?\n\nSHA-256: %@";
 "alert.trustSslCertificate.action.trust" = "Доверяю";
@@ -34,9 +38,22 @@
 "vault.rename.progressStatus" = "Переименование хранилища…";
 "vault.move.progressStatus" = "Перемещение хранилища…";
 "vault.create.progressStatus" = "Создание хранилища…";
+"vault.unlock.touchId" = "Разблокируйте «%@»";
+"vault.unlock.invalidMasterKey.title" = "Неверный мастер-ключ";
+"vault.unlock.invalidMasterKey.message" = "Ошибка мастер-ключа. Свяжитесь с нами!";
+"vault.unlock.versionMismatch.title" = "Неподходящая версия";
+"vault.unlock.versionMismatch.message" = "Это хранилище не поддерживается - оно было создано в другой версии Cryptomator.";
+"vault.unlock.wrongPassword.title" = "Неверный пароль";
+"vault.unlock.wrongPassword.message" = "Вы ввели неправильный пароль. Попробуйте снова.";
+"vault.unlock.unauthenticKeyVersion.title" = "Недостоверная версия ключа";
+"vault.unlock.unauthenticKeyVersion.message" = "Недостоверная версия мастер-ключа. Свяжитесь с нами!";
 "vault.lock" = "Заблокировать хранилище";
 
 "vaults.title" = "Cryptomator";
+"vaults.actions.lock" = "Блокировать";
+"vaults.actions.rename" = "Переименовать";
+"vaults.actions.move" = "Переместить";
+"vaults.actions.remove" = "Убрать";
 "vaults.add.alreadyAdded.title" = "Уже существует";
 "vaults.add.alreadyAdded.message" = "«%@» уже добавлено.";
 "vaults.remove.confirmation.title" = "Хранилище будет лишь убрано из списка, но не удалено физически. Хотите убрать «%@» из списка?";
@@ -75,10 +92,18 @@
 
 "directoryBrowser.footer.emptyFolder" = "Папка пуста";
 "directoryBrowser.footer.noSearchResults" = "Нет результатов";
+"directoryBrowser.actions.rename" = "Переименовать";
+"directoryBrowser.actions.move" = "Переместить";
+"directoryBrowser.actions.delete" = "Удалить";
 "directoryBrowser.error.notFound.description" = "Не удалось найти «%@».";
 "directoryBrowser.error.alreadyExists.description" = "«%@» уже существует.";
 "directoryBrowser.error.uploadFile.description" = "Ошибка отправки «%@».";
 "directoryBrowser.error.procedureCanceled.description" = "Операция отменена.";
+
+"emptyDirectoryFile.title" = "Нет доступа к \"%@\"";
+"emptyDirectoryFile.header" = "Эта папка недоступна";
+"emptyDirectoryFile.message" = "Возможно, он удалён другим приложением, либо произошла ошибка синхронизации с облаком.\n\nПопробуйте восстановить предыдущую непустую версию файла через провайдера облака. Проблемный файл: %@\n\nЕсли это не поможет, воспользуйтесь Sanitizer для проверки хранилища на ошибки и, возможно, для восстановления данных.";
+"emptyDirectoryFile.learnMore" = "Подробнее о Sanitizer";
 
 "filenameSetter.title.renameVault" = "Переименовать хранилище";
 "filenameSetter.title.renameFolder" = "Переименовать папку";
@@ -96,18 +121,9 @@
 "locationChooser.choose" = "Выбрать";
 "locationChooser.warning.sameLocation" = "Вы пытаетесь выбрать то же самое целевое место.";
 
-"unlock.touchId" = "Разблокируйте «%@»";
 "unlock.progressStatus" = "Разблокировка…";
 "unlock.unlock" = "Открыть";
 "unlock.password" = "Пароль";
-"unlock.invalidMasterKey.title" = "Неверный мастер-ключ";
-"unlock.invalidMasterKey.message" = "Ошибка мастер-ключа. Свяжитесь с нами!";
-"unlock.versionMismatch.title" = "Неподходящая версия";
-"unlock.versionMismatch.message" = "Это хранилище не поддерживается - оно было создано в другой версии Cryptomator.";
-"unlock.wrongPassword.title" = "Неверный пароль";
-"unlock.wrongPassword.message" = "Вы ввели неправильный пароль. Попробуйте снова.";
-"unlock.unauthenticKeyVersion.title" = "Недостоверная версия ключа";
-"unlock.unauthenticKeyVersion.message" = "Недостоверная версия мастер-ключа. Свяжитесь с нами!";
 
 "fileUpload.title" = "Сохранить в Cryptomator";
 "fileUpload.file" = "Файлы";
@@ -170,6 +186,7 @@
 "storageTypeChooser.title" = "Выберите сервис";
 
 "cloudChooser.footer.empty" = "Пока не настроено никаких подключений %@.\nНажмите «+» вверху справа, чтобы добавить подключение.";
+"cloudChooser.actions.remove" = "Убрать";
 "cloudChooser.add.alreadyAdded.title" = "Уже существует";
 "cloudChooser.add.alreadyAdded.message" = "«%@» уже добавлено.";
 "cloudChooser.remove.confirmation.title" = "Действительно удалить «%@»?";
@@ -182,6 +199,10 @@
 
 "vaultChooser.prompt" = "Выберите имеющееся хранилище";
 "vaultChooser.footer.isVault" = "Это хранилище. Выберите файл «masterkey.cryptomator» для добавления в него.";
+
+/* Dropbox */
+
+"dropboxDirectoryBrowser.routeError" = "Неизвестная ошибка. (%@, код: %zd)";
 
 /* WebDAV */
 
@@ -210,6 +231,7 @@
 "%@ can't be empty" = "%@ не может быть пустым.";
 
 "notEqualToOldFilenameValidator.invalidMessage" = "%@ не может быть тем же, что и старый.";
+"filenameValidator.invalidMessage" = "%@ не может содержать \\ / : * ? \" < > | или оканчиваться точкой/пробелом.";
 "uniqueFilenamesValidator.invalidMessage" = "Имена файлов должны быть уникальными. Переименуйте дубликаты.";
 "matchingPasswordsValidator.invalidMessage" = "Пароли не совпадают.";
 "urlHostNotNull.invalidMessage" = "Неверный URL. Требуется хотя бы хост.";

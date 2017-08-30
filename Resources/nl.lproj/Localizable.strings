@@ -34,6 +34,15 @@
 "vault.rename.progressStatus" = "Hernoemen kluis…";
 "vault.move.progressStatus" = "Verplaatsen kluis…";
 "vault.create.progressStatus" = "Creëren kluis…";
+"vault.unlock.touchId" = "Open \"%@\"";
+"vault.unlock.invalidMasterKey.title" = "Ongeldige Hoofdsleutel";
+"vault.unlock.invalidMasterKey.message" = "Er lijkt een probleem met uw hoofdsleutel te zijn. Gelieve contact op te nemen voor assistentie.";
+"vault.unlock.versionMismatch.title" = "Versieverschil";
+"vault.unlock.versionMismatch.message" = "Ongeschikte kluis. Deze kluis is gemaakt met een andere versie van Cryptomator.";
+"vault.unlock.wrongPassword.title" = "Verkeerd wachtwoord";
+"vault.unlock.wrongPassword.message" = "U heeft een verkeerd wachtwoord ingevoerd. Probeer het nogmaals.";
+"vault.unlock.unauthenticKeyVersion.title" = "Niet-authentieke Sleutel versie";
+"vault.unlock.unauthenticKeyVersion.message" = "De versie van de hoofdsleutel is niet authentiek. Gelieve contact met ons op te nemen!";
 "vault.lock" = "Vergendel kluis";
 
 "vaults.title" = "Cryptomator";
@@ -96,18 +105,9 @@
 "locationChooser.choose" = "Selecteer";
 "locationChooser.warning.sameLocation" = "U probeerde dezelfde bestemming te selecteren.";
 
-"unlock.touchId" = "Open \"%@\"";
 "unlock.progressStatus" = "Openen…";
 "unlock.unlock" = "Open";
 "unlock.password" = "Wachtwoord";
-"unlock.invalidMasterKey.title" = "Ongeldige Hoofdsleutel";
-"unlock.invalidMasterKey.message" = "Er lijkt een probleem met uw hoofdsleutel te zijn. Gelieve contact op te nemen voor assistentie.";
-"unlock.versionMismatch.title" = "Versieverschil";
-"unlock.versionMismatch.message" = "Ongeschikte kluis. Deze kluis is gemaakt met een andere versie van Cryptomator.";
-"unlock.wrongPassword.title" = "Verkeerd wachtwoord";
-"unlock.wrongPassword.message" = "U heeft een verkeerd wachtwoord ingevoerd. Probeer het nogmaals.";
-"unlock.unauthenticKeyVersion.title" = "Niet-authentieke Sleutel versie";
-"unlock.unauthenticKeyVersion.message" = "De versie van de hoofdsleutel is niet authentiek. Gelieve contact met ons op te nemen!";
 
 "fileUpload.title" = "Opslaan naar Cryptomator";
 "fileUpload.file" = "Bestanden";

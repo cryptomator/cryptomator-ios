@@ -38,10 +38,20 @@
 "vault.rename.progressStatus" = "Renaming Vault…";
 "vault.move.progressStatus" = "Moving Vault…";
 "vault.create.progressStatus" = "Creating Vault…";
+"vault.unlock.touchId" = "Unlock \"%@\"";
+"vault.unlock.invalidMasterKey.title" = "Invalid Masterkey";
+"vault.unlock.invalidMasterKey.message" = "There is an error with your masterkey. Please ask us for support!";
+"vault.unlock.versionMismatch.title" = "Version Mismatch";
+"vault.unlock.versionMismatch.message" = "Unsupported vault. This vault has been created with another version of Cryptomator.";
+"vault.unlock.wrongPassword.title" = "Wrong Password";
+"vault.unlock.wrongPassword.message" = "You have entered a wrong password. Please try again!";
+"vault.unlock.unauthenticKeyVersion.title" = "Unauthentic Key Version";
+"vault.unlock.unauthenticKeyVersion.message" = "The version of your masterkey is not authentic. Please ask us for support!";
 "vault.lock" = "Lock Vault";
 
 "vaults.title" = "Cryptomator";
 "vaults.actions.lock" = "Lock";
+"vaults.actions.changePassword" = "Change Password";
 "vaults.actions.rename" = "Rename";
 "vaults.actions.move" = "Move";
 "vaults.actions.remove" = "Remove";
@@ -112,18 +122,9 @@
 "locationChooser.choose" = "Choose";
 "locationChooser.warning.sameLocation" = "You tried to choose the same destination.";
 
-"unlock.touchId" = "Unlock \"%@\"";
 "unlock.progressStatus" = "Unlocking…";
 "unlock.unlock" = "Unlock";
 "unlock.password" = "Password";
-"unlock.invalidMasterKey.title" = "Invalid Masterkey";
-"unlock.invalidMasterKey.message" = "There is an error with your masterkey. Please ask us for support!";
-"unlock.versionMismatch.title" = "Version Mismatch";
-"unlock.versionMismatch.message" = "Unsupported vault. This vault has been created with another version of Cryptomator.";
-"unlock.wrongPassword.title" = "Wrong Password";
-"unlock.wrongPassword.message" = "You have entered a wrong password. Please try again!";
-"unlock.unauthenticKeyVersion.title" = "Unauthentic Key Version";
-"unlock.unauthenticKeyVersion.message" = "The version of your masterkey is not authentic. Please ask us for support!";
 
 "fileUpload.title" = "Save to Cryptomator";
 "fileUpload.file" = "Files";
@@ -196,6 +197,13 @@
 "passwordSetter.password" = "Password";
 "passwordSetter.retypedPassword" = "Retype Password";
 "passwordSetter.footer" = "IMPORTANT: If you forget your password, there is no way to recover your data.";
+
+"passwordChanger.progressStatus" = "Changing Password…";
+"passwordChanger.title" = "Change Password";
+"passwordChanger.oldPassword" = "Old Password";
+"passwordChanger.password" = "New Password";
+"passwordChanger.retypedPassword" = "Retype Password";
+"passwordChanger.footer" = "IMPORTANT: If you forget your password, there is no way to recover your data.";
 
 "vaultChooser.prompt" = "Choose an existing vault.";
 "vaultChooser.footer.isVault" = "This is a vault. Select the \"masterkey.cryptomator\" file to add this vault.";

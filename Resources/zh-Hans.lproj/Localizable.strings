@@ -1,0 +1,260 @@
+/* 
+  Localizable.strings
+  Cryptomator
+
+  Created by Tobias Hagemann on 19.02.15.
+  Copyright © 2015-2017 Skymatic. All rights reserved.
+*/
+
+"common.ok" = "好";
+"common.cancel" = "取消";
+"common.yes" = "是";
+"common.no" = "否";
+"common.inQuotes" = "「%@」";
+
+/* CryptomatorCommon */
+
+"alert.unableToAuthenticate.title" = "无法验证";
+"alert.unableToAuthenticate.message" = "请在 Cryptomator 中与 %@ 验证。";
+"alert.unableToUploadFile.title" = "无法上传文件";
+"alert.unableToUploadFile.message" = "你还没有任何资料库，请先通过 Cryptomator 创建。";
+"alert.replaceFile.title" = "替换此文件？";
+"alert.replaceFile.message" = "「%@」已存在，要替换现存文件吗？";
+"alert.changeToHttps.title" = "启用 HTTPS？";
+"alert.changeToHttps.message" = "HTTP 不安全，请考虑换用 HTTPS。如果你了解其中的风险，也可以继续使用 HTTP。";
+"alert.changeToHttps.action.changeToHttps" = "换用 HTTPS";
+"alert.changeToHttps.action.keepHttp" = "继续使用 HTTP";
+"alert.trustSslCertificate.title" = "SSL 证书无效";
+"alert.trustSslCertificate.message" = "%@ 的 SSL 证书无效，您要信任此证书吗？\n\nSHA-256：%@";
+"alert.trustSslCertificate.action.trust" = "信任";
+"alert.trustSslCertificate.action.dontTrust" = "不信任";
+
+"authentication.iCloudDrive.progressStatus" = "正在初始化 iCloud Drive";
+"authentication.dropbox.progressStatus" = "正在初始化 Dropbox";
+"authentication.error.notReachable" = "无法访问 %@，请稍后再试。";
+"authentication.error.failed" = "无法获得 %@ 验证。";
+
+"vault.defaultName" = "资料库";
+"vault.rename.progressStatus" = "正在重命名资料库";
+"vault.move.progressStatus" = "正在移动资料库";
+"vault.create.progressStatus" = "正在创建资料库";
+"vault.unlock.touchId" = "解锁「%@」";
+"vault.unlock.invalidMasterKey.title" = "金钥无效";
+"vault.unlock.invalidMasterKey.message" = "金钥存在错误，请联络我们获取帮助。";
+"vault.unlock.versionMismatch.title" = "版本错误";
+"vault.unlock.versionMismatch.message" = "不支持此资料库，因为它是从其他版本的 Cryptomator 创建的。";
+"vault.unlock.wrongPassword.title" = "密码错误";
+"vault.unlock.wrongPassword.message" = "密码有误，请重试。";
+"vault.unlock.unauthenticKeyVersion.title" = "无法验证密钥版本";
+"vault.unlock.unauthenticKeyVersion.message" = "当前密钥的版本存在问题，请联络我们获取帮助。";
+"vault.lock" = "锁定资料库";
+
+"vaults.title" = "Cryptomator";
+"vaults.actions.lock" = "锁定";
+"vaults.actions.rename" = "重命名";
+"vaults.actions.move" = "移动";
+"vaults.actions.remove" = "移除";
+"vaults.add.alreadyAdded.title" = "已存在";
+"vaults.add.alreadyAdded.message" = "此前已添加「%@」。";
+"vaults.remove.confirmation.title" = "这只会将资料库从列表中移除，而非实际删除相关文件，要继续移除「%@」吗？";
+"vaults.remove.confirmation.remove" = "移除此资料库";
+
+"folder.rename.progressStatus" = "正在重命名文件夹";
+"folder.move.progressStatus" = "正在移动文件夹";
+"folder.delete.confirmation.title" = "这会删除文件夹中的所有内容，要继续删除「%@」吗？";
+"folder.delete.confirmation.delete" = "删除此文件夹";
+"folder.delete.progressStatus" = "正在删除文件夹";
+"folder.create" = "创建文件夹";
+"folder.create.progressStatus" = "正在创建文件夹";
+
+"file.lastModified" = "上次修改 %@";
+"file.download.progressStatus" = "正在加载文件";
+"file.download.progressStatus.downloading" = "正在下载文件";
+"file.download.progressStatus.authenticating" = "正在验证文件";
+"file.download.progressStatus.decrypting" = "正在解密文件";
+"file.authentication.failed" = "警告：验证讯息鉴别码（MAC）失败\n\nCryptomator 探测到了潜在恶意修改。";
+"file.authentication.failed.continue" = "继续，我会小心处理";
+"file.authentication.failed.learnMore" = "更多信息";
+"file.upload" = "上传文件";
+"file.upload.progressStatus" = "正在保存";
+"file.upload.progressStatus.encrypting" = "正在加密";
+"file.upload.progressStatus.uploading" = "正在上传";
+"file.rename.progressStatus" = "正在重命名文件";
+"file.move.progressStatus" = "正在移动文件";
+"file.delete.confirmation.title" = "真的要删除「%@」吗？";
+"file.delete.confirmation.delete" = "删除此文件";
+"file.delete.progressStatus" = "正在删除文件";
+
+"photo.filename" = "照片 %@.%@";
+"video.filename" = "视频 %@.%@";
+"text.filename" = "文档 %@.%@";
+"unknown.filename" = "未命名 %@";
+
+"directoryBrowser.footer.emptyFolder" = "此文件夹没有内容";
+"directoryBrowser.footer.noSearchResults" = "无结果";
+"directoryBrowser.actions.rename" = "重命名";
+"directoryBrowser.actions.move" = "移动";
+"directoryBrowser.actions.delete" = "删除";
+"directoryBrowser.error.notFound.description" = "找不到「%@\」。";
+"directoryBrowser.error.alreadyExists.description" = "「%@」已存在。";
+"directoryBrowser.error.uploadFile.description" = "上传「%@」失败。";
+"directoryBrowser.error.procedureCanceled.description" = "操作已取消。";
+
+"emptyDirectoryFile.title" = "无法打开「%@」";
+"emptyDirectoryFile.header" = "Cryptomator 无法打开此文件。";
+"emptyDirectoryFile.message" = "这可能是因为其他应用删除了此文件，或云服务同步错误。\n\n你可以尝试通过在云服务中将此文件恢复到上一个版本，文件名称为：\n%@\n\n如果此操作无效，请尝试使用 Sanitizer 为这个资料库排障后再试。";
+"emptyDirectoryFile.learnMore" = "Sanitizer 详情";
+
+"filenameSetter.title.renameVault" = "重命名资料库";
+"filenameSetter.title.renameFolder" = "重命名文件夹";
+"filenameSetter.title.renameFile" = "重命名文件";
+"filenameSetter.title.createVault" = "创建资料库";
+"filenameSetter.title.createFolder" = "创建文件夹";
+"filenameSetter.rename" = "重命名";
+"filenameSetter.create" = "创建";
+"filenameSetter.filename.vault" = "资料库名称";
+"filenameSetter.filename.folder" = "文件夹名称";
+"filenameSetter.filename.file" = "文件名";
+
+"locationChooserVaults.title" = "选取资料库";
+"locationChooser.prompt" = "选择资料库所在位置。";
+"locationChooser.choose" = "选定";
+"locationChooser.warning.sameLocation" = "选择的位置与此前相同。";
+
+"unlock.progressStatus" = "正在解锁";
+"unlock.unlock" = "解锁";
+"unlock.password" = "密码";
+
+"fileUpload.title" = "保存到 Cryptomator";
+"fileUpload.file" = "文件";
+"fileUpload.file.1" = "文件";
+"fileUpload.file.filename" = "文件名";
+"fileUpload.favoriteLocation" = "常用";
+"fileUpload.uploadLocation" = "保存地址";
+"fileUpload.uploadLocation.locationChooser" = "选取文件夹";
+
+/* Cryptomator */
+
+"migration.askToUpgrade.title" = "需要升级";
+"migration.askToUpgrade.message" = "此资料库需要升级至最新版本，「%@」将重命名为「%@」。";
+"migration.proceed" = "升级";
+"migration.progressStatus" = "正在升级";
+
+"vaultBrowser.uploadFile.photos" = "照片";
+"vaultBrowser.uploadFile.progressStatus" = "正在准备";
+"vaultBrowser.uploadFile.nothingUploadedWarning" = "没有任何文件被上传。";
+"vaultBrowser.changeSortMode.sortByName" = "按名称排序";
+"vaultBrowser.changeSortMode.sortByDate" = "按日期排序";
+
+"settings.title" = "设置";
+"settings.autoLock" = "自动锁定";
+"settings.autoLock.instant" = "立刻";
+"settings.autoLock.after1Minute" = "一分钟后";
+"settings.autoLock.after2Minutes" = "两分钟后";
+"settings.autoLock.after5Minutes" = "五分钟后";
+"settings.autoLock.after10Minutes" = "十分钟后";
+"settings.cloudServices" = "云服务";
+"settings.touchId" = "Touch ID";
+"settings.appInformation" = "关于 Cryptomator";
+"settings.help" = "帮助与支持";
+"settings.contact" = "联系我们";
+"settings.rateApp" = "AppStore 评分";
+
+"cloudServicesSettings.title" = "云服务";
+"cloudServicesSettings.row.initialState" = "正在初始化 %@";
+"cloudServicesSettings.row.loggedOutState" = "登录 %@";
+"cloudServicesSettings.row.loggedInState" = "登出 %@";
+"cloudServicesSettings.section.footer.loggedInState" = "已登录 %@";
+"cloudServicesSettings.row.multipleAccounts" = "%@ 链接";
+"cloudServicesSettings.row.iCloudDrive" = "iCloud Drive 信息";
+"cloudServicesSettings.iCloudDrive.message" = "无法在自处直接管理 iCloud Drive 账户，请前往系统设置来登录或登出账户。";
+
+"touchIdSettings.title" = "Touch ID";
+"touchIdSettings.activate" = "启用 Touch ID";
+
+"appInformation.title" = "版本 %@ (%@)";
+
+"help.url" = "https://cryptomator.org/help/";
+
+"contact.url" = "https://cryptomator.org/contact/";
+
+"addVault.title" = "添加资料库";
+"addVault.onboarding" = "新建或选取现存资料库来加密云上资料。";
+"addVault.createNewVault" = "新建资料库";
+"addVault.addExistingVault" = "选取资料库";
+
+"storageTypeChooser.title" = "选择云服务";
+
+"cloudChooser.footer.empty" = "你还没有与 %@ 建立任何链接。\n点击右上方「+」按钮来连接。";
+"cloudChooser.actions.remove" = "移除";
+"cloudChooser.add.alreadyAdded.title" = "已存在";
+"cloudChooser.add.alreadyAdded.message" = "此前已添加「%@」。";
+"cloudChooser.remove.confirmation.title" = "真的要移除「%@」吗？";
+"cloudChooser.remove.confirmation.remove" = "移除此云服务";
+
+"passwordSetter.title" = "设置密码";
+"passwordSetter.password" = "密码";
+"passwordSetter.retypedPassword" = "再次输入密码";
+"passwordSetter.footer" = "重要：若忘记此密码，数据将无法找回。";
+
+"vaultChooser.prompt" = "选取现存资料库。";
+"vaultChooser.footer.isVault" = "这是一个资料库。选择「masterkey.cryptomator」文件来添加此资料库。";
+
+/* Dropbox */
+
+"dropboxDirectoryBrowser.routeError" = "意外错误 (%@, Code: %zd)";
+
+/* WebDAV */
+
+"webDavAuthentication.title" = "WebDAV";
+"webDavAuthentication.url" = "URL";
+"webDavAuthentication.username" = "用户名";
+"webDavAuthentication.password" = "密码";
+"webDavAuthentication.authenticate.progressStatus" = "验证中";
+"webDavAuthentication.error.missingServerCertificate" = "服务器没有为 HTTPS 提供证书。";
+"webDavAuthentication.error.unsupportedProtocol" = "服务器似乎不支持 WebDAV。";
+
+"webDavClient.error.unexpectedResponse" = "Unexpected response for WebDAV connection.";
+"webDavClient.error.connectionFailed" = "无法验证，请检查数据。";
+"webDavClient.error.authFailed" = "用户名或密码错误。";
+"webDavClient.error.notFound" = "找不到「%@」。";
+"webDavClient.error.methodNotAllowed" = "HTTP 方法「%@」被禁止。";
+"webDavClient.error.conflict" = "请求「%@」的过程中存在冲突。";
+"webDavClient.error.preconditionFailed" = "预处理请求「%@」失败。";
+"webDavClient.error.httpStatusCode" = "HTTP 错误 %d.";
+
+"webDavDirectoryBrowser.contentsOfDirectory.error.unexpectedResponse" = "无法取得文件列表。";
+
+/* XLForm */
+
+"XLFormViewController_ValidationErrorTitle" = "Whoops!";
+"%@ can't be empty" = "%@ 不能为空";
+
+"notEqualToOldFilenameValidator.invalidMessage" = "%@ 不能与此前相同";
+"filenameValidator.invalidMessage" = "%@ 不能含有 \\ / : * ? \" < > | 或以句点、空格结尾。";
+"uniqueFilenamesValidator.invalidMessage" = "文件名不能重复，请重命名名称重复的文件。";
+"matchingPasswordsValidator.invalidMessage" = "密码与此前输入不相符。";
+"urlHostNotNull.invalidMessage" = "URL 无效，地址至少应该包含一个域名或IP。";
+"conformsToUrlScheme.invalidMessage" = "URL 无效， 只允许这些格式：%@";
+
+/* Mock */
+
+"mock.vault1.name" = "最高机密";
+"mock.vault1.path" = "/最高机密";
+"mock.vault2.name" = "X 计划";
+"mock.vault2.path" = "/企划/X 计划";
+"mock.vault3.name" = "合同";
+"mock.vault3.path" = "/文档/合同";
+"mock.vault4.name" = "加州之旅";
+"mock.vault4.path" = "/旅行/加州之旅";
+"mock.vault5.name" = "照片";
+"mock.vault5.path" = "/个人/照片";
+
+"mock.file1.name" = "帐务.numbers";
+"mock.file2.name" = "期末演讲.key";
+"mock.file3.name" = "作业.docx";
+"mock.file4.name" = "ID卡.pdf";
+"mock.file5.name" = "喵喵喵.mov";
+"mock.folder1.name" = "机密企划";
+"mock.folder2.name" = "账单";
+"mock.folder3.name" = "证书";

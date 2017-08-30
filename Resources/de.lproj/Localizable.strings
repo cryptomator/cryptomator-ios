@@ -38,10 +38,20 @@
 "vault.rename.progressStatus" = "Benenne Tresor um…";
 "vault.move.progressStatus" = "Verschiebe Tresor…";
 "vault.create.progressStatus" = "Lege Tresor an…";
+"vault.unlock.touchId" = "„%@“ entsperren";
+"vault.unlock.invalidMasterKey.title" = "Ungültiger Masterkey";
+"vault.unlock.invalidMasterKey.message" = "Es ist ein Fehler mit dem Masterkey aufgetreten. Bitte wenden Sie sich an unseren Support!";
+"vault.unlock.versionMismatch.title" = "Versionskonflikt";
+"vault.unlock.versionMismatch.message" = "Dieser Tresor wird nicht unterstützt, da dieser mit einer anderen Version von Cryptomator erstellt wurde.";
+"vault.unlock.wrongPassword.title" = "Falsches Passwort";
+"vault.unlock.wrongPassword.message" = "Sie haben ein falsches Passwort eingegeben. Bitte versuchen Sie es erneut!";
+"vault.unlock.unauthenticKeyVersion.title" = "Unauthentische Key-Version";
+"vault.unlock.unauthenticKeyVersion.message" = "Die Version Ihres Masterkeys ist nicht authentisch. Bitte wenden Sie sich an unseren Support!";
 "vault.lock" = "Tresor sperren";
 
 "vaults.title" = "Cryptomator";
 "vaults.actions.lock" = "Sperren";
+"vaults.actions.changePassword" = "Passwort ändern";
 "vaults.actions.rename" = "Umbenennen";
 "vaults.actions.move" = "Verschieben";
 "vaults.actions.remove" = "Entfernen";
@@ -112,18 +122,9 @@
 "locationChooser.choose" = "Auswählen";
 "locationChooser.warning.sameLocation" = "Sie haben versucht, den gleichen Ablageort auszuwählen.";
 
-"unlock.touchId" = "„%@“ entsperren";
 "unlock.progressStatus" = "Entsperre…";
 "unlock.unlock" = "Entsperren";
 "unlock.password" = "Passwort";
-"unlock.invalidMasterKey.title" = "Ungültiger Masterkey";
-"unlock.invalidMasterKey.message" = "Es ist ein Fehler mit dem Masterkey aufgetreten. Bitte wenden Sie sich an unseren Support!";
-"unlock.versionMismatch.title" = "Versionskonflikt";
-"unlock.versionMismatch.message" = "Dieser Tresor wird nicht unterstützt, da dieser mit einer anderen Version von Cryptomator erstellt wurde.";
-"unlock.wrongPassword.title" = "Falsches Passwort";
-"unlock.wrongPassword.message" = "Sie haben ein falsches Passwort eingegeben. Bitte versuchen Sie es erneut!";
-"unlock.unauthenticKeyVersion.title" = "Unauthentische Key-Version";
-"unlock.unauthenticKeyVersion.message" = "Die Version Ihres Masterkeys ist nicht authentisch. Bitte wenden Sie sich an unseren Support!";
 
 "fileUpload.title" = "In Cryptomator speichern";
 "fileUpload.file" = "Dateien";
@@ -196,6 +197,13 @@
 "passwordSetter.password" = "Passwort";
 "passwordSetter.retypedPassword" = "Passwort wiederholen";
 "passwordSetter.footer" = "WICHTIG: Falls Sie Ihr Passwort vergessen, gibt es keine Möglichkeit Ihre Daten wiederherzustellen.";
+
+"passwordChanger.progressStatus" = "Ändere Passwort…";
+"passwordChanger.title" = "Passwort ändern";
+"passwordChanger.oldPassword" = "Altes Passwort";
+"passwordChanger.password" = "Neues Passwort";
+"passwordChanger.retypedPassword" = "Passwort wiederholen";
+"passwordChanger.footer" = "WICHTIG: Falls Sie Ihr Passwort vergessen, gibt es keine Möglichkeit Ihre Daten wiederherzustellen.";
 
 "vaultChooser.prompt" = "Wählen Sie einen vorhandenen Tresor aus.";
 "vaultChooser.footer.isVault" = "Dies ist ein Tresor. Wählen Sie die „masterkey.cryptomator“-Datei aus, um diesen Tresor hinzuzufügen.";
