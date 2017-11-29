@@ -11,6 +11,8 @@
 "common.yes" = "Ja";
 "common.no" = "Nee";
 "common.inQuotes" = "\"%@\"";
+"common.touchId" = "Touch ID";
+"common.faceId" = "Face ID";
 
 /* CryptomatorCommon */
 
@@ -138,7 +140,7 @@
 "settings.autoLock.after5Minutes" = "5 Minuten";
 "settings.autoLock.after10Minutes" = "10 minuten";
 "settings.cloudServices" = "Cloud diensten";
-"settings.touchId" = "Touch ID";
+"settings.touchId" = "%@";
 "settings.appInformation" = "Over Cryptomator";
 "settings.help" = "Hulp & Support";
 "settings.contact" = "Contact";
@@ -153,8 +155,8 @@
 "cloudServicesSettings.row.iCloudDrive" = "iCloud Drive Informatie";
 "cloudServicesSettings.iCloudDrive.message" = "U kunt uw iCloud Drive account niet vanuit hier managen. U dient in- en uit te loggen vanuit de iOS instellingen.";
 
-"touchIdSettings.title" = "Touch ID";
-"touchIdSettings.activate" = "Activeer Touch ID";
+"touchIdSettings.title" = "%@";
+"touchIdSettings.activate" = "Activeer %@";
 
 "appInformation.title" = "Versie %@ (%@)";
 

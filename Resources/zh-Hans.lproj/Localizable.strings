@@ -11,6 +11,8 @@
 "common.yes" = "是";
 "common.no" = "否";
 "common.inQuotes" = "「%@」";
+"common.touchId" = "触控 ID";
+"common.faceId" = "面容 ID";
 
 /* CryptomatorCommon */
 
@@ -42,7 +44,7 @@
 "vault.unlock.invalidMasterKey.title" = "金钥无效";
 "vault.unlock.invalidMasterKey.message" = "金钥存在错误，请联络我们获取帮助。";
 "vault.unlock.versionMismatch.title" = "版本错误";
-"vault.unlock.versionMismatch.message" = "不支持此资料库，因为它是从其他版本的 Cryptomator 创建的。";
+"vault.unlock.versionMismatch.message" = "不支持此资料库，因为它由其他版本的 Cryptomator 所创建。";
 "vault.unlock.wrongPassword.title" = "密码错误";
 "vault.unlock.wrongPassword.message" = "密码有误，请重试。";
 "vault.unlock.unauthenticKeyVersion.title" = "无法验证密钥版本";
@@ -51,6 +53,7 @@
 
 "vaults.title" = "Cryptomator";
 "vaults.actions.lock" = "锁定";
+"vaults.actions.changePassword" = "修改密码";
 "vaults.actions.rename" = "重命名";
 "vaults.actions.move" = "移动";
 "vaults.actions.remove" = "移除";
@@ -72,7 +75,7 @@
 "file.download.progressStatus.downloading" = "正在下载文件";
 "file.download.progressStatus.authenticating" = "正在验证文件";
 "file.download.progressStatus.decrypting" = "正在解密文件";
-"file.authentication.failed" = "警告：验证讯息鉴别码（MAC）失败\n\nCryptomator 探测到了潜在恶意修改。";
+"file.authentication.failed" = "警告：验证讯息鉴别码（MAC）失败\n\nCryptomator 可能存在恶意修改。";
 "file.authentication.failed.continue" = "继续，我会小心处理";
 "file.authentication.failed.learnMore" = "更多信息";
 "file.upload" = "上传文件";
@@ -154,7 +157,7 @@
 "settings.autoLock.after5Minutes" = "五分钟后";
 "settings.autoLock.after10Minutes" = "十分钟后";
 "settings.cloudServices" = "云服务";
-"settings.touchId" = "Touch ID";
+"settings.touchId" = "%@";
 "settings.appInformation" = "关于 Cryptomator";
 "settings.help" = "帮助与支持";
 "settings.contact" = "联系我们";
@@ -167,10 +170,10 @@
 "cloudServicesSettings.section.footer.loggedInState" = "已登录 %@";
 "cloudServicesSettings.row.multipleAccounts" = "%@ 链接";
 "cloudServicesSettings.row.iCloudDrive" = "iCloud Drive 信息";
-"cloudServicesSettings.iCloudDrive.message" = "无法在自处直接管理 iCloud Drive 账户，请前往系统设置来登录或登出账户。";
+"cloudServicesSettings.iCloudDrive.message" = "无法在此处直接管理 iCloud Drive 账户，请前往系统设置来登录或登出账户。";
 
-"touchIdSettings.title" = "Touch ID";
-"touchIdSettings.activate" = "启用 Touch ID";
+"touchIdSettings.title" = "%@";
+"touchIdSettings.activate" = "启用 %@";
 
 "appInformation.title" = "版本 %@ (%@)";
 
@@ -194,8 +197,15 @@
 
 "passwordSetter.title" = "设置密码";
 "passwordSetter.password" = "密码";
-"passwordSetter.retypedPassword" = "再次输入密码";
+"passwordSetter.retypedPassword" = "确认密码";
 "passwordSetter.footer" = "重要：若忘记此密码，数据将无法找回。";
+
+"passwordChanger.progressStatus" = "正在修改密码";
+"passwordChanger.title" = "修改密码";
+"passwordChanger.oldPassword" = "旧密码";
+"passwordChanger.password" = "新密码";
+"passwordChanger.retypedPassword" = "确认新密码";
+"passwordChanger.footer" = "重要：若忘记此密码，数据将无法找回。";
 
 "vaultChooser.prompt" = "选取现存资料库。";
 "vaultChooser.footer.isVault" = "这是一个资料库。选择「masterkey.cryptomator」文件来添加此资料库。";

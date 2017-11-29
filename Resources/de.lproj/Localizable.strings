@@ -11,6 +11,8 @@
 "common.yes" = "Ja";
 "common.no" = "Nein";
 "common.inQuotes" = "„%@“";
+"common.touchId" = "Touch ID";
+"common.faceId" = "Face ID";
 
 /* CryptomatorCommon */
 
@@ -20,6 +22,13 @@
 "alert.unableToUploadFile.message" = "Sie haben keinen Tresor eingerichtet. Bitte legen Sie zuerst einen Tresor mit der Cryptomator-App an.";
 "alert.replaceFile.title" = "Datei ersetzen?";
 "alert.replaceFile.message" = "Eine Datei namens „%@“ existiert bereits. Wollen Sie diese ersetzen?";
+"alert.replaceFile.action.replace" = "Ersetzen";
+"alert.replaceFiles.title" = "Dateien ersetzen?";
+"alert.replaceFiles.message.some" = "%tu Dateien existieren bereits. Wollen Sie diese ersetzen?";
+"alert.replaceFiles.message.all" = "Alle Dateien existieren bereits. Wollen Sie diese ersetzen?";
+"alert.replaceFiles.action.replace.some" = "Existierende ersetzen";
+"alert.replaceFiles.action.replace.all" = "Alle ersetzen";
+"alert.replaceFiles.action.skip" = "Existierende überspringen";
 "alert.changeToHttps.title" = "HTTPS nutzen?";
 "alert.changeToHttps.message" = "Die Verwendung von HTTP ist unsicher. Wir empfehlen stattdessen die Nutzung von HTTPS. Wenn Sie sich der Risiken bewusst sind, können Sie mit HTTP fortfahren.";
 "alert.changeToHttps.action.changeToHttps" = "Zu HTTPS ändern";
@@ -155,7 +164,7 @@
 "settings.autoLock.after5Minutes" = "5 Minuten";
 "settings.autoLock.after10Minutes" = "10 Minuten";
 "settings.cloudServices" = "Cloud-Dienste";
-"settings.touchId" = "Touch ID";
+"settings.touchId" = "%@";
 "settings.appInformation" = "Über Cryptomator";
 "settings.help" = "Hilfe & Support";
 "settings.contact" = "Kontakt";
@@ -170,8 +179,8 @@
 "cloudServicesSettings.row.iCloudDrive" = "Info zu iCloud Drive";
 "cloudServicesSettings.iCloudDrive.message" = "Sie können Ihren iCloud Drive-Account nicht von hier verwalten. Um sich einzuloggen und abzumelden, wechseln Sie bitte zu den iOS-Einstellungen.";
 
-"touchIdSettings.title" = "Touch ID";
-"touchIdSettings.activate" = "Touch ID aktivieren";
+"touchIdSettings.title" = "%@";
+"touchIdSettings.activate" = "%@ aktivieren";
 
 "appInformation.title" = "Version %@ (%@)";
 
