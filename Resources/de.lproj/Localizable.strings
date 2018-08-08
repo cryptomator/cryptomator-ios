@@ -37,6 +37,9 @@
 "alert.trustSslCertificate.message" = "Das SSL-Zertifikat von „%@“ ist ungültig. Wollen Sie diesem trotzdem vertrauen?\n\nSHA-256: %@";
 "alert.trustSslCertificate.action.trust" = "Vertrauen";
 "alert.trustSslCertificate.action.dontTrust" = "Nicht vertrauen";
+"alert.enableDebugMode.title" = "Achtung";
+"alert.enableDebugMode.message" = "In diesem Modus könnten sensible Daten in eine Log-Datei auf diesem Gerät geschrieben werden (z.B. Dateinamen und Pfade). Ausgeschlossen davon sind u.a. Passwörter und Cookies.\n\nDenken Sie daran, den Debug-Modus so schnell wie möglich wieder zu deaktivieren.";
+"alert.enableDebugMode.action.enable" = "Aktivieren";
 
 "authentication.iCloudDrive.progressStatus" = "Initialisiere iCloud Drive…";
 "authentication.dropbox.progressStatus" = "Initialisiere Dropbox…";
@@ -165,6 +168,14 @@
 "settings.autoLock.after10Minutes" = "10 Minuten";
 "settings.cloudServices" = "Cloud-Dienste";
 "settings.touchId" = "%@";
+"settings.debugMode" = "Debug-Modus";
+"settings.sendLogFile" = "Log-Datei senden";
+"settings.sendLogFile.subject" = "iOS Fehlerbericht";
+"settings.sendLogFile.messageBody.summary.title" = "Zusammenfassung";
+"settings.sendLogFile.messageBody.summary.description" = "Beschreiben Sie kurz, was sie in der App getan haben oder verweisen Sie auf ein existierendes Support-Ticket.";
+"settings.sendLogFile.messageBody.deviceInfo.title" = "Geräteinfo";
+"settings.sendLogFile.error.unableToSendMail" = "Ihr Gerät ist nicht für den Versand von E-Mails konfiguriert.";
+"settings.sendLogFile.error.noLogFiles" = "Es wurden keine Log-Dateien gefunden.";
 "settings.appInformation" = "Über Cryptomator";
 "settings.help" = "Hilfe & Support";
 "settings.contact" = "Kontakt";

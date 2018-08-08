@@ -30,6 +30,9 @@
 "alert.trustSslCertificate.message" = "%@ 的 SSL 证书无效，您要信任此证书吗？\n\nSHA-256：%@";
 "alert.trustSslCertificate.action.trust" = "信任";
 "alert.trustSslCertificate.action.dontTrust" = "不信任";
+"alert.enableDebugMode.title" = "Attention";
+"alert.enableDebugMode.message" = "In this mode, sensitive data may be written to a log file on your device (e.g., filenames and paths). Passwords, cookies, etc. are explicitly excluded.\n\nRemember to disable debug mode as soon as possible.";
+"alert.enableDebugMode.action.enable" = "Enable";
 
 "authentication.iCloudDrive.progressStatus" = "正在初始化 iCloud Drive";
 "authentication.dropbox.progressStatus" = "正在初始化 Dropbox";
@@ -158,6 +161,14 @@
 "settings.autoLock.after10Minutes" = "十分钟后";
 "settings.cloudServices" = "云服务";
 "settings.touchId" = "%@";
+"settings.debugMode" = "Debug Mode";
+"settings.sendLogFile" = "Send Log File";
+"settings.sendLogFile.subject" = "iOS Error Report";
+"settings.sendLogFile.messageBody.summary.title" = "Summary";
+"settings.sendLogFile.messageBody.summary.description" = "Insert a short description of what you tried to do or mention your support ticket if you already created one.";
+"settings.sendLogFile.messageBody.deviceInfo.title" = "Device Info";
+"settings.sendLogFile.error.unableToSendMail" = "Your device is not configured for sending emails.";
+"settings.sendLogFile.error.noLogFiles" = "No log files were found.";
 "settings.appInformation" = "关于 Cryptomator";
 "settings.help" = "帮助与支持";
 "settings.contact" = "联系我们";
