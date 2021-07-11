@@ -5,6 +5,8 @@
 
 Cryptomator for iOS is available on the App Store: [Download Cryptomator for iOS](https://itunes.apple.com/app/cryptomator/id953086535)
 
+If you're looking for the "new" app with Files integration and would like to report an issue, check out the other repository: https://github.com/cryptomator/ios
+
 ## Open Core
 
 Cryptomator for iOS is an _open core_ project. This repository is used for collecting issues regarding the iOS app of Cryptomator.
