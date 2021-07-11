@@ -1,18 +1,16 @@
-## Issue Checklist
+<!--
+Please make sure to:
+- Comply with our code of conduct: https://github.com/cryptomator/cryptomator-ios/blob/main/CODE_OF_CONDUCT.md
+- Search for existing similar issues first: https://github.com/cryptomator/cryptomator-ios/issues?q=
 
-Before creating a new issue make sure that you
-- searched existing (and closed) issues: https://github.com/cryptomator/cryptomator-ios/issues
-- searched the knowledge base: https://community.cryptomator.org/c/kb
-- have read the support guide: https://github.com/cryptomator/cryptomator-ios/blob/master/SUPPORT.md
-- have read the contribution guide: https://github.com/cryptomator/cryptomator-ios/blob/master/CONTRIBUTING.md
-- have read the Code of Conduct: https://github.com/cryptomator/cryptomator-ios/blob/master/CODE_OF_CONDUCT.md
+⚠️ IMPORTANT: If you'd like to report an issue about the "new" app with Files app integration, please do that in the other repository: https://github.com/cryptomator/ios
+-->
 
 ## Basic Info
 
-I'm using iOS in version: …
-
-I'm running Cryptomator in version: …  
-(You can check the version in the Cryptomator settings under "About Cryptomator".)
+* iOS version: [Shown in the settings of iOS]
+* Cryptomator version: [Shown in the settings of Cryptomator]
+* Cloud type: [Dropbox/Google Drive/OneDrive/WebDAV/Other File Provider]
 
 ## Description
 
